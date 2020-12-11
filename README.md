@@ -20,5 +20,13 @@ Our team adopts Gradient Boosting Decision Tree(GBDT) model. It uses the negativ
 
 There are three model optimization method: cross-validation, grid search and model merging.
 
-## Result
-Final F1-score is 74.6667%, 1.4% higher than the second place.
+## Advantages
+(1)High prediction accuracy：Final F1-score is 74.6667%, 1.4% higher than the second place.
+
+(2)Training fast：Model training only takes 3-5 minutes, which is much faster than LSTM model.
+
+(3)Generalization ability：Collect two-year operating data of thousands of base stations to train the model.
+
+(4)Strong expandability：Multi-dimensional predictions can be made by adding features such as power consumption.
+
+
