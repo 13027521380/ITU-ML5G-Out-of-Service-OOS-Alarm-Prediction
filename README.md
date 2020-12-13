@@ -8,7 +8,7 @@ The traditional maintenance method has the following four steps. Its shortcoming
 
 The intelligent network maintenance achieves fault prediction through data analysis and continuous self-learning, which can effectively improve processing efficiency and accuracy. 
 
-![image](https://github.com/13027521380/ITU-ML5G-Out-of-Service-OOS-Alarm-Prediction/blob/main/images/19ff49fba76bb6cea24b3d90ce5da28.png)
+![image](./images/19ff49fba76bb6cea24b3d90ce5da28.png)
 
 ## Innovation
 Innovation 1: Generate labels accurately. which helps accurately predict results. First, fill in missing dates. Like this picture, we should fill in data of March seventeenth. Then, shift up the alarm columns. Owing to label judging by the warnings of the next day, we can use shift function to shift up. Next, add the two columns and determine whether it is non-zero. If non-zero, then label equals 1. Finally, eliminate forecast data and we get the label of training set.
@@ -20,11 +20,11 @@ Innovation 3: Multi-dimensional features. The basic features are each type of al
 ## Model Optimization
 Our team adopts Gradient Boosting Decision Tree(GBDT) model. It uses the negative gradient value of the loss function as the residual prediction, and continuously linearly superimposes the base model, and finally generates GBDT model. LightGBM is one of the implementation frameworks of the GBDT model, which has the advantage of training fast, high accuracy and low memory usage.
 
-![image](https://github.com/13027521380/ITU-ML5G-Out-of-Service-OOS-Alarm-Prediction/blob/main/images/85e074bc643e5a6ca73f5dfd1d900d8.png)
+![image](./images/85e074bc643e5a6ca73f5dfd1d900d8.png)
 
 There are three model optimization method: cross-validation, grid search and model merging.
 
-![image](https://github.com/13027521380/ITU-ML5G-Out-of-Service-OOS-Alarm-Prediction/blob/main/images/%E5%9B%BE%E7%89%871.png)
+![image](./images/%E5%9B%BE%E7%89%871.png)
 
 ## Advantages
 (1)High prediction accuracy：Final F1-score is 74.6667%, 1.4% higher than the second place.
@@ -35,4 +35,4 @@ There are three model optimization method: cross-validation, grid search and mod
 
 (4)Strong expandability：Multi-dimensional predictions can be made by adding features such as power consumption.
 
-![image](https://github.com/13027521380/ITU-ML5G-Out-of-Service-OOS-Alarm-Prediction/blob/main/images/%E5%9B%BE%E7%89%872.jpg)
+![image](./images/%E5%9B%BE%E7%89%872.jpg)
