@@ -32,3 +32,5 @@ There are three model optimization method: cross-validation, grid search and mod
 (3)Generalization ability：Collect two-year operating data of thousands of base stations to train the model.
 
 (4)Strong expandability：Multi-dimensional predictions can be made by adding features such as power consumption.
+
+![image](https://github.com/13027521380/ITU-ML5G-Out-of-Service-OOS-Alarm-Prediction/blob/main/images/%E5%9B%BE%E7%89%872.jpg)
