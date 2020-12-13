@@ -19,11 +19,8 @@ Innovation 3: Multi-dimensional features. The basic features are each type of al
 
 ## Model Optimization
 Our team adopts Gradient Boosting Decision Tree(GBDT) model. It uses the negative gradient value of the loss function as the residual prediction, and continuously linearly superimposes the base model, and finally generates GBDT model. LightGBM is one of the implementation frameworks of the GBDT model, which has the advantage of training fast, high accuracy and low memory usage.
-
 ![image](https://github.com/13027521380/zcnku/blob/master/85e074bc643e5a6ca73f5dfd1d900d8.png)
-
 There are three model optimization method: cross-validation, grid search and model merging.
-
 ![image](https://github.com/13027521380/zcnku/blob/master/%E5%9B%BE%E7%89%871.png)
 
 ## Advantages
