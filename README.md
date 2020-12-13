@@ -8,7 +8,6 @@ The traditional maintenance method has the following four steps. Its shortcoming
 
 The intelligent network maintenance achieves fault prediction through data analysis and continuous self-learning, which can effectively improve processing efficiency and accuracy. 
 
-![image](https://github.com/13027521380/zcnku/blob/master/19ff49fba76bb6cea24b3d90ce5da28.png)
 
 ## Innovation
 Innovation 1: Generate labels accurately. which helps accurately predict results. First, fill in missing dates. Like this picture, we should fill in data of March seventeenth. Then, shift up the alarm columns. Owing to label judging by the warnings of the next day, we can use shift function to shift up. Next, add the two columns and determine whether it is non-zero. If non-zero, then label equals 1. Finally, eliminate forecast data and we get the label of training set.
